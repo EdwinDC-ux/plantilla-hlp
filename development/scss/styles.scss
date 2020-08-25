@@ -1,0 +1,19 @@
+.background-head {
+    background-image: url("../../images/bg-hero-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ajustes-btn {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    font-size: small;
+    padding: 1rem 4rem;
+}
+
+@media (min-width: 769px) {
+    .background-head {
+        background-image: url("../../images/bg-hero-desktop.svg");
+    }
+}
