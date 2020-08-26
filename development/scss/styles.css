@@ -1,10 +1,16 @@
 .background-head {
   background-image: url("../../images/bg-hero-mobile.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
-.ajustes-btn {
+.background-head nav form .ajustes-btn1 {
+  color: black;
+  font-size: small;
+  padding: 0.5rem 3rem;
+}
+
+.background-head div form .ajustes-btn2 {
   background-color: deeppink;
   color: white;
   border: none;
@@ -12,9 +18,35 @@
   padding: 1rem 4rem;
 }
 
-@media (min-width: 769px) {
+.ajustes-cont1 {
+  margin-top: 6rem;
+}
+
+.ajustes-cont1 .wrapper .ajustes-row1 {
+  margin-bottom: 2rem;
+  border: 3px solid #f0f0f0;
+  border-radius: 8px;
+  -ms-flex-direction: column-reverse !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: reverse !important;
+          flex-direction: column-reverse !important;
+}
+
+.ajustes-cont1 .wrapper .ajustes-row2 {
+  margin-bottom: 2rem;
+  border: 3px solid #f0f0f0;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
   .background-head {
     background-image: url("../../images/bg-hero-desktop.svg");
+  }
+  .ajustes-cont1 .wrapper .ajustes-row1 {
+    -ms-flex-direction: row !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+            flex-direction: row !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
