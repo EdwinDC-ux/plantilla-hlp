@@ -51,12 +51,14 @@ svg .imgf {
 }
 
 .ajuste-p2 {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   margin-left: 1rem;
 }
 
-.facebook-svg {
-  border: 2px solid white;
+.ajuste-rs {
+  text-align: center !important;
 }
 
 @media (min-width: 768px) {
@@ -68,6 +70,9 @@ svg .imgf {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
             flex-direction: row !important;
+  }
+  .ajuste-rs {
+    text-align: left !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */

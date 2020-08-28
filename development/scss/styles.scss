@@ -30,7 +30,7 @@
             margin-bottom: 2rem;
             border: 3px solid #f0f0f0;
             border-radius: 8px;
-            -ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important
+            -ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important;
         }
         .ajustes-row2 {
             margin-bottom: 2rem;
@@ -53,12 +53,12 @@ svg {
     font-size: small;
 }
 .ajuste-p2 {
-    display: inline-block;
+    display: inline-flex;
     margin-left: 1rem;
 }
 
-.facebook-svg {
-    border: 2px solid white;
+.ajuste-rs {
+    text-align:center!important;
 }
 
 @media (min-width: 768px) {
@@ -68,8 +68,11 @@ svg {
     .ajustes-cont1 {
         .wrapper {
             .ajustes-row1 {
-                -ms-flex-direction:row!important;flex-direction:row!important
+                -ms-flex-direction:row!important;flex-direction:row!important;
             }
         }
+    }
+    .ajuste-rs {
+        text-align:left!important;
     }
 }
