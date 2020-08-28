@@ -38,6 +38,27 @@
   border-radius: 8px;
 }
 
+.ajustes-footer {
+  background-color: #003030;
+}
+
+svg .imgf {
+  fill: white;
+}
+
+.ajuste-p {
+  font-size: small;
+}
+
+.ajuste-p2 {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.facebook-svg {
+  border: 2px solid white;
+}
+
 @media (min-width: 768px) {
   .background-head {
     background-image: url("../../images/bg-hero-desktop.svg");
