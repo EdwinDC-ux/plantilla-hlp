@@ -4,13 +4,13 @@
   background-size: 100% 100%;
 }
 
-.background-head nav form .ajustes-btn1 {
+.ajustes-btn1 {
   color: black;
   font-size: small;
   padding: 0.5rem 3rem;
 }
 
-.background-head div form .ajustes-btn2 {
+.ajustes-btn2 {
   background-color: deeppink;
   color: white;
   border: none;
@@ -22,7 +22,7 @@
   margin-top: 6rem;
 }
 
-.ajustes-cont1 .wrapper .ajustes-row1 {
+.ajustes-row1 {
   margin-bottom: 2rem;
   border: 3px solid #f0f0f0;
   border-radius: 8px;
@@ -32,7 +32,7 @@
           flex-direction: column-reverse !important;
 }
 
-.ajustes-cont1 .wrapper .ajustes-row2 {
+.ajustes-row2 {
   margin-bottom: 2rem;
   border: 3px solid #f0f0f0;
   border-radius: 8px;
@@ -65,7 +65,7 @@ svg .imgf {
   .background-head {
     background-image: url("../../images/bg-hero-desktop.svg");
   }
-  .ajustes-cont1 .wrapper .ajustes-row1 {
+  .ajustes-cont1 .ajustes-row1 {
     -ms-flex-direction: row !important;
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;

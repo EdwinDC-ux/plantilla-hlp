@@ -2,42 +2,37 @@
     background-image: url("../../images/bg-hero-mobile.svg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    nav {
-        form {
-            .ajustes-btn1 {
-                color: black;
-                font-size: small;
-                padding: 0.5rem 3rem;
-            }
-        }
-    }
-    div {
-        form {
-            .ajustes-btn2 {
-                background-color: deeppink;
-                color: white;
-                border: none;
-                font-size: small;
-                padding: 1rem 4rem;
-            }
-        }
-    }
 }
+
+.ajustes-btn1 {
+    color: black;
+    font-size: small;
+    padding: 0.5rem 3rem;
+}
+
+.ajustes-btn2 {
+    background-color: deeppink;
+    color: white;
+    border: none;
+    font-size: small;
+    padding: 1rem 4rem;
+}
+
 .ajustes-cont1 {
     margin-top: 6rem;
-    .wrapper {
-        .ajustes-row1 {
-            margin-bottom: 2rem;
-            border: 3px solid #f0f0f0;
-            border-radius: 8px;
-            -ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important;
-        }
-        .ajustes-row2 {
-            margin-bottom: 2rem;
-            border: 3px solid #f0f0f0;
-            border-radius: 8px;
-        }
-    }
+}
+
+.ajustes-row1 {
+    margin-bottom: 2rem;
+    border: 3px solid #f0f0f0;
+    border-radius: 8px;
+    -ms-flex-direction:column-reverse!important;flex-direction:column-reverse!important;
+}
+
+.ajustes-row2 {
+    margin-bottom: 2rem;
+    border: 3px solid #f0f0f0;
+    border-radius: 8px;
 }
 
 .ajustes-footer {
@@ -66,10 +61,8 @@ svg {
         background-image: url("../../images/bg-hero-desktop.svg");
     }
     .ajustes-cont1 {
-        .wrapper {
-            .ajustes-row1 {
-                -ms-flex-direction:row!important;flex-direction:row!important;
-            }
+        .ajustes-row1 {
+            -ms-flex-direction:row!important;flex-direction:row!important;
         }
     }
     .ajuste-rs {
